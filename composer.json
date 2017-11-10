@@ -1,0 +1,23 @@
+{
+    "name": "iivannov/snitch",
+    "description": "Easily log and report exceptions to multiple different places (file, database, Sentry, Bugsnag, ...)",
+    "keywords": ["laravel", "sentry", "log"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Ivanov",
+            "email": "iivannov@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "psr/log": "1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iivannov\\Snitch\\": "src"
+        }
+    }
+}
